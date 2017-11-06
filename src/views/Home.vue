@@ -245,16 +245,32 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-      <h2 class="col-head">Conference DOCUMENTS</h2>
+      <h2 class="col-head">CONFERENCE DOCUMENTS</h2>
         <ul>
-          <li><a href="static\documents\Agenda.pdf">Agenda</a></li>
-          <li><a href="static\documents\Bios.pdf">Speakers Bios</a></li>
-          <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-medication-assisted-treatment-for-opioid-use-disorders-for-criminal-justice-involved-individuals ">An Overview of Medication- Assisted Treatment for Opioid Use Disorders for Criminal Justice-Involved Individuals</a></li>
-          <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-national-and-illinois-opioid-and-heroin-crisis ">A State and National Overview of the Opioid and Heroin Crisis</a></li>
-          <li><a href="http://www.icjia.state.il.us/articles/rethinking-law-enforcement-s-role-on-drugs-community-drug-intervention-and-diversion-efforts ">Rethinking Law Enforcement’s Role on Drugs: Community Drug Intervention and Diversion Efforts</a></li>
-          <li><a href="http://www.icjia.state.il.us/articles/police-led-referrals-to-treatment-for-substance-use-disorders-in-rural-illinois-an-examination-of-the-safe-passage-initiative ">Police-Led Referrals to Treatment for Substance Use Disorders in Rural Illinois: An Examination of the Safe Passage Initiative</a></li>
-          <li><a href="http://www.icjia.state.il.us/articles/fighting-the-opioid-crisis-through-substance-use-disorder-treatment-a-study-of-a-police-program-model-in-illinois ">Fighting the Opioid Crisis through Substance Use Disorder Treatment: A Study of a Police Program Model in Illinois</a></li>
-          <li><a href="http://www.icjia.state.il.us/articles/reducing-substance-use-disorders-and-related-offending-a-continuum-of-evidence-informed-practices-in-the-criminal-justice-system ">Reducing Substance Use Disorders and Related Offending: A Continuum of Evidence-Informed Practices in the Criminal Justice System</a></li>
+            <ul>
+              <li><a href="static\documents\Agenda.pdf">Agenda</a></li>
+              <li><a href="static\documents\Bios.pdf">Speakers Bios</a></li>
+            </ul>
+            <br>
+          <h3>Web Links</h3>
+            <ul>
+            <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-medication-assisted-treatment-for-opioid-use-disorders-for-criminal-justice-involved-individuals ">An Overview of Medication- Assisted Treatment for Opioid Use Disorders for Criminal Justice-Involved Individuals</a></li>
+            <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-national-and-illinois-opioid-and-heroin-crisis ">A State and National Overview of the Opioid and Heroin Crisis</a></li>
+            <li><a href="http://www.icjia.state.il.us/articles/rethinking-law-enforcement-s-role-on-drugs-community-drug-intervention-and-diversion-efforts ">Rethinking Law Enforcement’s Role on Drugs: Community Drug Intervention and Diversion Efforts</a></li>
+            <li><a href="http://www.icjia.state.il.us/articles/police-led-referrals-to-treatment-for-substance-use-disorders-in-rural-illinois-an-examination-of-the-safe-passage-initiative ">Police-Led Referrals to Treatment for Substance Use Disorders in Rural Illinois: An Examination of the Safe Passage Initiative</a></li>
+            <li><a href="http://www.icjia.state.il.us/articles/fighting-the-opioid-crisis-through-substance-use-disorder-treatment-a-study-of-a-police-program-model-in-illinois ">Fighting the Opioid Crisis through Substance Use Disorder Treatment: A Study of a Police Program Model in Illinois</a></li>
+            <li><a href="http://www.icjia.state.il.us/articles/reducing-substance-use-disorders-and-related-offending-a-continuum-of-evidence-informed-practices-in-the-criminal-justice-system ">Reducing Substance Use Disorders and Related Offending: A Continuum of Evidence-Informed Practices in the Criminal Justice System</a></li>
+            </ul>
+            <br>
+          <h3>Presentations</h3>
+            <ul>
+              <li><a href="static\documents\Chief Eric Guenther_AWOPresentation.pptx">Eric Guenther</a></li>
+              <li><a href="static\documents\Dan Meloy_Colerain (QRT) Quick Response Team - Bloomington IL.pptx">Daniel Meloy</a></li>
+              <li><a href="static\documents\Dr. Ross MacDonald_Operational feasability of MAT in CJ.pptx">Ross MacDonald, M.D.</a></li>
+              <li><a href="static\documents\Nunley_CJ Response Opioid Crisis.pptx">John Nunley</a></li>
+              <li><a href="static\documents\Phil Barbour_MAT in community corrections.pptx">Phillip Whittington</a></li>
+              <li><a href="static\documents\Richard Weisskopf_methadone pp presentation The Criminal Justice Response to the Opioid Crisis 11.17.ppt">Richard Weisskopf</a></li>
+            </ul>
         </ul>
       </div>
     </div>
@@ -362,7 +378,7 @@
         opacity: .7;
         padding: 15px 50px 15px 50px;
         position: absolute;
-        top: 15%;
+        top: 20%;
         text-align: center;
         width: 100%;
         font-size: 36px;
