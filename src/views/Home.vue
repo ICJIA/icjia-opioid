@@ -42,7 +42,7 @@
   <div class="container-fluid section-padding">
     <div class="row">
       <div class="col-md-12">
-      <h2 style ="font-size: 28px; font-weight: 900;"><a href="http://bit.ly/2vxX16E"> REGISTER NOW</a></h2>
+      <!--<h2 style ="font-size: 28px; font-weight: 900;"><a href="http://bit.ly/2vxX16E"> REGISTER NOW</a></h2>-->
       <p >November 1, 2017 | Free conference</p>
       <p >The Chateau Hotel & Conference Center | Bloomington, IL</p>
       <p >CEUs & CLEs available!</p>
@@ -87,6 +87,8 @@
         <p><img src="static\img\JosiahRich3.jpg" style ="float:left; padding-right: 15px;"></p>
         <p><strong>Josiah D. Rich, M.D., M.P.H.</strong></p>
         <p><em>Infectious Disease Specialist; Professor of Medicine and epidemiology; Co-Founder & Director of The Center for Prisoner Health and Human Rights</em></p>
+        <!--<a href="static\documents\JosiahRich.pdf" class="btn btn-secondary btn-sm">Read more >></a>
+        <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>-->
         <p>Dr. Rich is a Professor of Medicine and Epidemiology at Brown University and a Practicing Infectious Disease Specialist at The Miriam Hospital and at the Rhode Island Department of Corrections - caring for prisoners with HIV Infection and other Diseases since 1994. He has extensive expertise in the care and prevention of disease in addicted and incarcerated individuals.  This combined clinical experience has given him a unique vantage point from which to understand at a deep level the challenges, as well as, the opportunities that the incarcerated setting offers.  This has informed and driven his Research Career, which has focused on the diagnosis, treatment, and prevention of HIV/AIDS and Co-Morbid conditions, especially among incarcerated and addicted populations.  Currently, Dr. Rich is the Principal Investigator on an R01, a T33, an R22 and a K24 award all focused on incarcerated or disadvantaged populations.  He has had continuous Federal Research Funding for over two decades and has published well-over 190 Peer-Reviewed Publications, predominantly in the overlap between Infectious Diseases, Addictions, and Incarceration.</p>
         <p>He is the Director and Co-Founder of “The Center for Prisoner Health and Human Rights” at The Miriam Hospital (www.prisonerhealth.org).  He is also the Co-Founder of the Nationwide Centers for AIDS Research (CFAR) collaboration in HIV in Corrections (CFAR/CHIC) initiative.  Dr. Rich has advocated for public health policy changes to improve the health of people with addiction, including improving legal access to sterile syringes and increasing drug treatment for the incarcerated and the formerly incarcerated populations. In 2015, Dr. Rich was appointed by Rhode Island’s Governor Gina Raimondo, as an Expert Advisor to the Overdose Prevention and Intervention Task Force - charged with formulating a Strategic Plan to address addiction and stop overdose deaths in Rhode Island.  He has also served as an Expert for the National Academy of Sciences, The Institute of Medicine and many others.</p>
       </div>
@@ -244,6 +246,13 @@ export default {
     }
   },
 
+  mounted() {
+
+    $('.popover-dismiss').popover({
+    trigger: 'focus'
+    })
+
+  },
 }
 </script>
 

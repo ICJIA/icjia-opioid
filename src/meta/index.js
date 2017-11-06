@@ -2,10 +2,10 @@ module.exports = {
   meta: [
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { property: "og:title", content: "Reducing Substance Use Disorders and Related Offending" },
-    { property: "og:site_name", content: "Reducing Substance Use Disorders and Related Offending" },
+    { property: "og:title", content: "The Criminal Justice Response To The Opioid Crisis" },
+    { property: "og:site_name", content: "The Criminal Justice Response To The Opioid Crisis" },
     { property: "og:url", content: "https://sudcontinuum.icjia.cloud" },
-    { property: "og:description", content: "In the United States, more than 20 million individuals have substance use disorders (SUDs)—not including individuals with more mild or moderate substance use and misuse. Of those with SUDs, just over 10 percent ultimately receive treatment. On average, costs incurred in the United States from alcohol and drug use due to lost work productivity, health care expenses, motor vehicle accidents, and criminal justice costs exceeds $400 billion. Almost half of the cost is at the taxpayers’ expense."},
+    { property: "og:description", content: "Referral, Resuources, & Research."},
     { property: "fb:app_id", content: "963916987072512" },
     { property: "og:type", content: "article" },
     { property: "og:locale", content: "en_US" },
