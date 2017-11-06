@@ -90,7 +90,7 @@
         <p><em>Infectious Disease Specialist; Professor of Medicine and epidemiology; Co-Founder & Director of The Center for Prisoner Health and Human Rights</em></p>
         <!--<a href="static\documents\JosiahRich.pdf" class="btn btn-secondary btn-sm">Read more >></a>
         <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>-->
-        
+
         <p>Dr. Rich is a Professor of Medicine and Epidemiology at Brown University and a Practicing Infectious Disease Specialist at The Miriam Hospital and at the Rhode Island Department of Corrections - caring for prisoners with HIV Infection and other Diseases since 1994. He has extensive expertise in the care and prevention of disease in addicted and incarcerated individuals.  This combined clinical experience has given him a unique vantage point from which to understand at a deep level the challenges, as well as, the opportunities that the incarcerated setting offers.  This has informed and driven his Research Career, which has focused on the diagnosis, treatment, and prevention of HIV/AIDS and Co-Morbid conditions, especially among incarcerated and addicted populations.  Currently, Dr. Rich is the Principal Investigator on an R01, a T33, an R22 and a K24 award all focused on incarcerated or disadvantaged populations.  He has had continuous Federal Research Funding for over two decades and has published well-over 190 Peer-Reviewed Publications, predominantly in the overlap between Infectious Diseases, Addictions, and Incarceration.</p>
         <p>He is the Director and Co-Founder of “The Center for Prisoner Health and Human Rights” at The Miriam Hospital (www.prisonerhealth.org).  He is also the Co-Founder of the Nationwide Centers for AIDS Research (CFAR) collaboration in HIV in Corrections (CFAR/CHIC) initiative.  Dr. Rich has advocated for public health policy changes to improve the health of people with addiction, including improving legal access to sterile syringes and increasing drug treatment for the incarcerated and the formerly incarcerated populations. In 2015, Dr. Rich was appointed by Rhode Island’s Governor Gina Raimondo, as an Expert Advisor to the Overdose Prevention and Intervention Task Force - charged with formulating a Strategic Plan to address addiction and stop overdose deaths in Rhode Island.  He has also served as an Expert for the National Academy of Sciences, The Institute of Medicine and many others.</p>
       </div>
@@ -245,10 +245,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-      <h2 class="col-head">RELATIVE DOCUMENTS</h2>
+      <h2 class="col-head">Conference DOCUMENTS</h2>
         <ul>
-          <li><a href="static\documents\Agenda.pdf">AGENDA</a></li>
-          <li><a href="static\documents\Bios.pdf">BIOS</a></li>
+          <li><a href="static\documents\Agenda.pdf">Agenda</a></li>
+          <li><a href="static\documents\Bios.pdf">Speakers Bios</a></li>
           <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-medication-assisted-treatment-for-opioid-use-disorders-for-criminal-justice-involved-individuals ">An Overview of Medication- Assisted Treatment for Opioid Use Disorders for Criminal Justice-Involved Individuals</a></li>
           <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-national-and-illinois-opioid-and-heroin-crisis ">A State and National Overview of the Opioid and Heroin Crisis</a></li>
           <li><a href="http://www.icjia.state.il.us/articles/rethinking-law-enforcement-s-role-on-drugs-community-drug-intervention-and-diversion-efforts ">Rethinking Law Enforcement’s Role on Drugs: Community Drug Intervention and Diversion Efforts</a></li>
@@ -296,22 +296,22 @@
     #section-title {
         color: #fff;
     }
-    
+
     #section-registerNow {
         background-color: #3a3a87;
         color: #fff;
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    
+
     #section-registerNow.text-muted {
         color: #fff !important
     }
-    
+
     #section-registerNow.lead {
         color: #fff !important
     }
-    
+
     #section-sponsors {
         background-color: rgb(168, 168, 168);
         width: 100%;
@@ -319,42 +319,42 @@
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    
+
     #section-about {
         background-color: #eee;
         padding-top: 60px;
         padding-bottom: 60px;
         text-align: left;
     }
-    
+
     #section-attend {
         background-color: #eee;
         padding-top: 60px;
         padding-bottom: 50px;
         text-align: left;
     }
-    
+
     #section-speakers {
         background-color: #fff;
         padding-top: 60px;
         padding-bottom: 50px;
         text-align: left;
     }
-    
+
     #section-documents {
         background-color: #eee;
         padding-top: 60px;
         padding-bottom: 50px;
         text-align: left;
     }
-    
+
     #SadManBackground {
         background-image: url(/static/img/SadMan.jpg);
         background-size: cover;
         position: relative;
         height: 80vh;
     }
-    
+
     .header {
         background: #eee;
         color: #fff;
@@ -372,7 +372,7 @@
         /* Safari */
         transform: translate(0, -50%);
     }
-    
+
     .header-mobile {
         background: #fff;
         opacity: .7;
@@ -383,7 +383,7 @@
         margin-bottom: 40px;
         font-size: 36px;
     }
-    
+
     .header h3,
     .header h4,
     .header-mobile h3,
@@ -392,20 +392,20 @@
         opacity: 1;
         font-family: 'Lato', sans-serif
     }
-    
+
     .header h3,
     .header-mobile h3 {
         font-weight: 900 !important;
         text-transform: uppercase !important;
         font-size: 46px !important
     }
-    
+
     .header h4,
     .header-mobile h4 {
         font-weight: 400 !important;
         color: #444 !important
     }
-    
+
     .col-head {
         padding-bottom: 10px;
         border-bottom: 1px solid #ccc;
@@ -413,16 +413,16 @@
         font-size: 28px;
         font-weight: 900;
     }
-    
+
     .intro-sub {
         font-size: 28px;
         margin-top: 50px;
     }
-    
+
     .spacer30 {
         margin-top: 30px;
     }
-    
+
     .speaker {
         overflow: hidden;
     }
