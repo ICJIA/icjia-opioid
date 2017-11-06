@@ -238,82 +238,152 @@
 
 
 <script>
+    export default {
+        data() {
+            return {
 
-export default {
-  data () {
-    return {
+            }
+        },
 
+        mounted() {
+
+            $('.popover-dismiss').popover({
+                trigger: 'focus'
+            })
+
+        },
     }
-  },
-
-  mounted() {
-
-    $('.popover-dismiss').popover({
-    trigger: 'focus'
-    })
-
-  },
-}
 </script>
 
 
 <style lang="css" scoped>
-
-#section-title{color: #fff;}
-#section-registerNow {background-color: #3a3a87; color: #fff; padding-top: 60px; padding-bottom: 60px;}
-#section-registerNow.text-muted {color: #fff !important}
-#section-registerNow.lead {color: #fff !important}
-#section-sponsors {background-color: rgb(168, 168, 168); width:100%; padding-left: 60px; padding-top: 5px; padding-bottom: 5px;}
-#section-about {background-color: #eee; padding-top: 60px; padding-bottom: 60px; text-align:left;}
-#section-attend {background-color: #eee; padding-top: 60px; padding-bottom: 50px; text-align:left;}
-#section-speakers {background-color: #fff; padding-top: 60px; padding-bottom: 50px; text-align:left;}
-#section-documents {background-color: #eee; padding-top: 60px; padding-bottom: 50px; text-align:left;}
-
-#SadManBackground{
-  background-image:url(/static/img/SadMan.jpg);
-  background-size:cover;
-  position:relative;
-  height:80vh;
-}
-
-.header{
-  background: #eee;
-  color: #fff;
-  font-family:'league Gothic', sans-serif;
-
-  opacity: .7;
-  padding: 15px 50px 15px 50px;
-  position:absolute;
-  top:15%;
-  text-align:center;
-  width:100%;
-
-  font-size:36px;
-
-  -ms-transform: translate(0,-50%); /* IE 9 */
-    -webkit-transform: translate(0,-50%); /* Safari */
-    transform: translate(0,-50%);
-}
-
-.header-mobile{
-  background: #fff;
-  opacity: .7;
-  padding: 10px 15px 10px 15px;
-  text-align:center;
-  width:100%;
-  margin-top: 50px;
-  margin-bottom: 40px;
-  font-size:36px;
-
-}
-
-.header h3, .header h4, .header-mobile h3, .header-mobile h4 {color: #000; opacity: 1; font-family: 'Lato', sans-serif}
-.header h3, .header-mobile h3 {font-weight: 900 !important; text-transform: uppercase !important; font-size: 46px !important}
-.header h4, .header-mobile h4 {font-weight: 400 !important; color: #444 !important}
-
-.col-head {padding-bottom: 10px; border-bottom: 1px solid #ccc; margin-bottom: 20px; font-size: 28px; font-weight: 900;}
-.intro-sub {font-size: 28px; margin-top: 50px; }
-.spacer30 {margin-top: 30px;}
-
-
+    #section-title {
+        color: #fff;
+    }
+    
+    #section-registerNow {
+        background-color: #3a3a87;
+        color: #fff;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    #section-registerNow.text-muted {
+        color: #fff !important
+    }
+    
+    #section-registerNow.lead {
+        color: #fff !important
+    }
+    
+    #section-sponsors {
+        background-color: rgb(168, 168, 168);
+        width: 100%;
+        padding-left: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #section-about {
+        background-color: #eee;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-align: left;
+    }
+    
+    #section-attend {
+        background-color: #eee;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+    
+    #section-speakers {
+        background-color: #fff;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+    
+    #section-documents {
+        background-color: #eee;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        text-align: left;
+    }
+    
+    #SadManBackground {
+        background-image: url(/static/img/SadMan.jpg);
+        background-size: cover;
+        position: relative;
+        height: 80vh;
+    }
+    
+    .header {
+        background: #eee;
+        color: #fff;
+        font-family: 'league Gothic', sans-serif;
+        opacity: .7;
+        padding: 15px 50px 15px 50px;
+        position: absolute;
+        top: 15%;
+        text-align: center;
+        width: 100%;
+        font-size: 36px;
+        -ms-transform: translate(0, -50%);
+        /* IE 9 */
+        -webkit-transform: translate(0, -50%);
+        /* Safari */
+        transform: translate(0, -50%);
+    }
+    
+    .header-mobile {
+        background: #fff;
+        opacity: .7;
+        padding: 10px 15px 10px 15px;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+    
+    .header h3,
+    .header h4,
+    .header-mobile h3,
+    .header-mobile h4 {
+        color: #000;
+        opacity: 1;
+        font-family: 'Lato', sans-serif
+    }
+    
+    .header h3,
+    .header-mobile h3 {
+        font-weight: 900 !important;
+        text-transform: uppercase !important;
+        font-size: 46px !important
+    }
+    
+    .header h4,
+    .header-mobile h4 {
+        font-weight: 400 !important;
+        color: #444 !important
+    }
+    
+    .col-head {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        font-size: 28px;
+        font-weight: 900;
+    }
+    
+    .intro-sub {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+    
+    .spacer30 {
+        margin-top: 30px;
+    }
 </style>
