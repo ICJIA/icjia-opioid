@@ -4,14 +4,15 @@ import Home from '@/views/Home'
 //import Meta from 'vue-meta'
 
 Vue.use(Router)
-//Vue.use(Meta)
+    //Vue.use(Meta)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    }
-  ]
+    mode: 'history',
+    routes: [{
+            path: '/',
+            name: 'Home',
+            component: Home
+        },
+        { path: '*', redirect: '/' }
+    ]
 })
