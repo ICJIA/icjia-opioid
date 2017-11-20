@@ -364,6 +364,7 @@
         padding-left: 60px;
         padding-top: 5px;
         padding-bottom: 5px;
+        border-top: 1px solid #ccc;
     }
     
     #section-about {
