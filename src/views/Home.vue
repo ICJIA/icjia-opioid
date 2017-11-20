@@ -4,13 +4,34 @@
 <section id = "section-title">
     <div id ="SadManBackground" style="margin-top: -25px;" class="hidden-sm hidden-xs">
       <div div class="header">
-        <h3> THE CRIMINAL JUSTICE RESPONSE TO THE OPIOID CRISIS</h3>
-        <h4> REFERRALS, RESOURCES, & RESEARCH</h4>
+        <h3 > THE CRIMINAL JUSTICE RESPONSE TO THE OPIOID CRISIS</h3>
+        <h4 > REFERRALS, RESOURCES, & RESEARCH</h4>
       </div>
     </div>
 </section>
 
-<!-- <section id = "section-sponsors">
+
+
+<section id = "section-registerNow">
+  <div class="container-fluid section-padding">
+    <div class="row">
+      <div class="col-md-12">
+      <!--<h2 style ="font-size: 28px; font-weight: 900;"><a href="http://bit.ly/2vxX16E"> REGISTER NOW</a></h2>-->
+      <p class="heavy med">November 1, 2017 | Free conference</p>
+      <p class="heavy">The Chateau Hotel & Conference Center | Bloomington, IL</p>
+      <p class="heavy">CEUs & CLEs available!</p>
+      <p class="heavy">Lunch provided</p>
+      <p class="heavy">Hosted by</p>
+      <p class="heavy">The Illinois Criminal Justice Information Authority</p>
+      <div>
+        <p><a href="http://www.icjia.state.il.us/"><img src="static\img\icjia1.png"></a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id = "section-sponsors" style="padding-top: 30px; padding-bottom: 15px">
   
   <div class="container">
     <h2 class="col-head">SPONSORS</h2>
@@ -33,25 +54,6 @@
       </div>
       <div style="padding-left:35px">
         <p><a href="https://www.cityofchicago.org"><img src="static\img\a_healthyChicago2.jpg"></a></p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<section id = "section-registerNow">
-  <div class="container-fluid section-padding">
-    <div class="row">
-      <div class="col-md-12">
-      <!--<h2 style ="font-size: 28px; font-weight: 900;"><a href="http://bit.ly/2vxX16E"> REGISTER NOW</a></h2>-->
-      <p class="heavy med">November 1, 2017 | Free conference</p>
-      <p class="heavy">The Chateau Hotel & Conference Center | Bloomington, IL</p>
-      <p class="heavy">CEUs & CLEs available!</p>
-      <p class="heavy">Lunch provided</p>
-      <p class="heavy">Hosted by</p>
-      <p class="heavy">The Illinois Criminal Justice Information Authority</p>
-      <div>
-        <p><a href="http://www.icjia.state.il.us/"><img src="static\img\icjia1.png"></a></p>
-      </div>
       </div>
     </div>
   </div>
@@ -277,7 +279,7 @@
   </div>
 </section>
 
-<section id = "section-sponsors">
+<!-- <section id = "section-sponsors">
   
   <div class="container">
     <h2 class="col-head" style="margin-top: 30px; margin-bottom: 30px">SPONSORS</h2>
@@ -303,7 +305,7 @@
       </div>
     </div>
   </div>
-</section> 
+</section>  -->
 
 
 </div>
@@ -364,7 +366,7 @@
         padding-left: 60px;
         padding-top: 5px;
         padding-bottom: 5px;
-        border-top: 1px solid #ccc;
+        border-top: 1px solid #fff;
     }
     
     #section-about {
@@ -373,6 +375,7 @@
         padding-bottom: 60px;
         text-align: left;
         border-bottom: 1px solid #ccc;
+        border-top: 1px solid #888;
     }
     
     #section-attend {
@@ -405,10 +408,10 @@
     }
     
     .header {
-        background: #eee;
-        color: #fff;
+        /* background: #eee; */
+        color: #fff !important;
         font-family: 'league Gothic', sans-serif;
-        opacity: .7;
+        /* opacity: .2; */
         padding: 15px 50px 15px 50px;
         position: absolute;
         top: 20%;
@@ -416,9 +419,7 @@
         width: 100%;
         font-size: 36px;
         -ms-transform: translate(0, -50%);
-        /* IE 9 */
         -webkit-transform: translate(0, -50%);
-        /* Safari */
         transform: translate(0, -50%);
     }
     
@@ -437,8 +438,7 @@
     .header h4,
     .header-mobile h3,
     .header-mobile h4 {
-        color: #000;
-        opacity: 1;
+        color: #fff;
         font-family: 'Lato', sans-serif
     }
     
@@ -446,13 +446,13 @@
     .header-mobile h3 {
         font-weight: 900 !important;
         text-transform: uppercase !important;
-        font-size: 46px !important
+        font-size: 50px !important
     }
     
     .header h4,
     .header-mobile h4 {
         font-weight: 400 !important;
-        color: #444 !important
+        /* color: #444 !important */
     }
     
     .col-head {
@@ -481,6 +481,6 @@
     }
     
     .med {
-        font-size: 22px
+        font-size: 24px
     }
 </style>
