@@ -62,17 +62,17 @@
     <div class="row">
       <div class="col-md-6">
       <h2 class="col-head">ABOUT</h2>
-      <p> This conference will offer referrals, resources, and research to assist those suffering from opioid use doisorders and who are justice involved.</p>
-      <p>Panels will shares:</p>
+      <p> This conference offered referrals, resources, and research to assist those suffering from opioid use disorders and who are justice-involved.</p>
+      <p>Panels shared:</p>
         <ul>
-          <li>Personal and professional experience woth opioid used disorders and medication-assisted treatment.</li>
+          <li>Personal and professional experience with opioid use disorders and medication-assisted treatment.</li>
           <li>Practices to address opioid use disorders with justice-involved individuals.</li>
           <li>Medication-assisted treatment at each criminal justice intercept point.</li>
         </ul>
-      <p>Pluse free, pre-conference, naloxone training.</p>
+      <p>Plus free, pre-conference, naloxone training.</p>
       </div>
       <div class="col-md-6">
-      <h2 class="col-head">WHO SHOULD ATTEND</h2>
+      <h2 class="col-head">WHO ATTENDED</h2>
       <p>Police chiefs, officers, sheriffs, probation and court services staff, jail administrators and corrections staff, healthcare and behavioral health providers, students, and the public.</p>
       </div>
     </div>
@@ -249,10 +249,10 @@
         <ul>
             <ul>
               <li><a href="static\documents\Agenda.pdf">Agenda</a></li>
-              <li><a href="static\documents\Bios.pdf">Speakers Bios</a></li>
+              <!--<li><a href="static\documents\Bios.pdf">Speakers Bios</a></li>-->
             </ul>
             <br>
-          <h3>Web Links</h3>
+          <h3>Related Articles</h3>
             <ul>
             <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-medication-assisted-treatment-for-opioid-use-disorders-for-criminal-justice-involved-individuals ">An Overview of Medication- Assisted Treatment for Opioid Use Disorders for Criminal Justice-Involved Individuals</a></li>
             <li><a href="http://www.icjia.state.il.us/articles/an-overview-of-national-and-illinois-opioid-and-heroin-crisis ">A State and National Overview of the Opioid and Heroin Crisis</a></li>
@@ -262,14 +262,14 @@
             <li><a href="http://www.icjia.state.il.us/articles/reducing-substance-use-disorders-and-related-offending-a-continuum-of-evidence-informed-practices-in-the-criminal-justice-system ">Reducing Substance Use Disorders and Related Offending: A Continuum of Evidence-Informed Practices in the Criminal Justice System</a></li>
             </ul>
             <br>
-          <h3>Presentations</h3>
+          <h3>PowerPoint Presentations</h3>
             <ul>
-              <li><a href="static\documents\Chief Eric Guenther_AWOPresentation.pptx">Eric Guenther</a></li>
-              <li><a href="static\documents\Dan Meloy_Colerain (QRT) Quick Response Team - Bloomington IL.pptx">Daniel Meloy</a></li>
-              <li><a href="static\documents\Dr. Ross MacDonald_Operational feasability of MAT in CJ.pptx">Ross MacDonald, M.D.</a></li>
-              <li><a href="static\documents\Nunley_CJ Response Opioid Crisis.pptx">John Nunley</a></li>
-              <li><a href="static\documents\Phil Barbour_MAT in community corrections.pptx">Phillip Whittington</a></li>
-              <li><a href="static\documents\Richard Weisskopf_methadone pp presentation The Criminal Justice Response to the Opioid Crisis 11.17.ppt">Richard Weisskopf</a></li>
+              <li><a href="static\documents\Chief Eric Guenther_AWOPresentation.pptx"><u>A Way Out Program</u> </a> <strong> Eric Guenther</strong><em>, Chief of Police, Mundelein Police Department</em></li>
+              <li><a href="static\documents\Dan Meloy_Colerain (QRT) Quick Response Team - Bloomington IL.pptx"><u>Quick Response Team</u> </a><strong> Daniel Meloy</strong><em>, Administrator & Director of Public Safety, Colerain Township, OH</em></li>
+              <li><a href="static\documents\Dr. Ross MacDonald_Operational feasability of MAT in CJ.pptx"><u>Operational Feasibility of MAT in the Criminal Justice System</u> </a><strong> Ross MacDonald, M.D.</strong><em>, Chief Medical Officer & Senior Vice President, New York City Health + Hospitals</em></li>
+              <li><a href="static\documents\Nunley_CJ Response Opioid Crisis.pptx"><u>Addiction Recovery management Services Unit</u> </a><strong> John Nunley</strong><em>, Statewide Manager of Addiction Recovery Services Unit, Illinois Department of Corrections</em></li>
+              <li><a href="static\documents\Phil Barbour_MAT in community corrections.pptx"><u>Medication-Assisted Treatment for Opioid Addiction in a Criminal Justice Context</u></a> <strong> Phillip Whittington</strong><em>, Master Trainer, Treatment Alternatives for Safe Communities (TASC)</em></li>
+              <li><a href="static\documents\Richard Weisskopf_methadone pp presentation The Criminal Justice Response to the Opioid Crisis 11.17.ppt"><u>IDHS/DASA State Opiate Treatment</u> </a><strong> Richard Weisskopf</strong><em>, Executive, State Opiate Treatment Authority, IDHS/DASA</em></li>
             </ul>
         </ul>
       </div>
