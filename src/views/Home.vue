@@ -404,7 +404,7 @@
     }
     
     #SadManBackground {
-        background-image: url(/static/img/SadMan.jpg);
+        background-image: url(/static/img/sadMan_compressed.jpg);
         background-size: cover;
         position: relative;
         height: 80vh;
