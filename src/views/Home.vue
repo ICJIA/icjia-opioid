@@ -3,14 +3,18 @@
 
 <section id = "section-title">
     <div id ="SadManBackground" style="margin-top: -25px;" class="hidden-sm hidden-xs">
-      <div div class="header">
+      <div class="header">
         <h3 > THE CRIMINAL JUSTICE RESPONSE TO THE OPIOID CRISIS</h3>
         <h4 > REFERRALS, RESOURCES, & RESEARCH</h4>
       </div>
     </div>
+    <div style="" class="hidden-md hidden-lg">
+      <div style="padding-top: 30px; padding-bottom: 30px;" class="header-mobile text-center">
+        <h3> THE CRIMINAL JUSTICE RESPONSE TO THE OPIOID CRISIS</h3>
+        <h4> REFERRALS, RESOURCES, & RESEARCH</h4>
+      </div>
+    </div>
 </section>
-
-
 
 <section id = "section-registerNow">
   <div class="container-fluid section-padding">
@@ -32,7 +36,6 @@
 </section>
 
 <section id = "section-sponsors" style="padding-top: 30px; padding-bottom: 15px">
-
   <div class="container">
     <h2 class="col-head">SPONSORS</h2>
     <div class="row">
@@ -424,13 +427,13 @@
     }
 
     .header-mobile {
-        background: #fff;
-        opacity: .7;
-        padding: 10px 15px 10px 15px;
+        background: #fff !important;
+        /*opacity: .7; */
+        padding: 15px 50px 15px 50px;
         text-align: center;
         width: 100%;
-        margin-top: 50px;
-        margin-bottom: 40px;
+        /*margin-top: 50px;
+        margin-bottom: 40px;*/
         font-size: 36px;
     }
 
