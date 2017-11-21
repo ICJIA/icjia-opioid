@@ -272,8 +272,8 @@
               <li><a href="static\documents\Chief Eric Guenther_AWOPresentation.pptx"><u>A Way Out Program</u> </a> <strong> Eric Guenther</strong><em>, Chief of Police, Mundelein Police Department</em></li>
               <li><a href="static\documents\Dan Meloy_Colerain (QRT) Quick Response Team - Bloomington IL.pptx"><u>Quick Response Team</u> </a><strong> Daniel Meloy</strong><em>, Administrator & Director of Public Safety, Colerain Township, OH</em></li>
               <li><a href="static\documents\Dr. Ross MacDonald_Operational feasability of MAT in CJ.pptx"><u>Operational Feasibility of MAT in the Criminal Justice System</u> </a><strong> Ross MacDonald, M.D.</strong><em>, Chief Medical Officer & Senior Vice President, New York City Health + Hospitals</em></li>
-              <li><a href="static\documents\Nunley_CJ Response Opioid Crisis.pptx"><u>Addiction Recovery management Services Unit</u> </a><strong> John Nunley</strong><em>, Statewide Manager of Addiction Recovery Services Unit, Illinois Department of Corrections</em></li>
-              <li><a href="static\documents\Phil Barbour_MAT in community corrections.pptx"><u>Medication-Assisted Treatment for Opioid Addiction in a Criminal Justice Context</u></a> <strong> Phillip Whittington</strong><em>, Master Trainer, Treatment Alternatives for Safe Communities (TASC)</em></li>
+              <li><a href="static\documents\Nunley_CJ Response Opioid Crisis.pptx"><u>Addiction Recovery Management Services Unit</u> </a><strong> John Nunley</strong><em>, Statewide Manager of Addiction Recovery Services Unit, Illinois Department of Corrections</em></li>
+              <li><a href="static\documents\Phil Barbour_MAT in community corrections.pptx"><u>Medication-Assisted Treatment for Opioid Addiction in a Criminal Justice Context</u></a> <strong> Phillip Barbour</strong><em>, Master Trainer, Treatment Alternatives for Safe Communities (TASC)</em></li>
               <li><a href="static\documents\Richard Weisskopf_methadone pp presentation The Criminal Justice Response to the Opioid Crisis 11.17.ppt"><u>IDHS/DASA State Opiate Treatment</u> </a><strong> Richard Weisskopf</strong><em>, Executive, State Opiate Treatment Authority, IDHS/DASA</em></li>
             </ul>
         </ul>
@@ -345,7 +345,7 @@
     #section-title {
         color: #fff;
     }
-    
+
     #section-registerNow {
         background-color: #3a3a87;
         color: #fff;
@@ -354,15 +354,15 @@
         border-top: 1px solid #aaa;
         border-bottom: 1px solid #000;
     }
-    
+
     #section-registerNow.text-muted {
         color: #fff !important
     }
-    
+
     #section-registerNow.lead {
         color: #fff !important
     }
-    
+
     #section-sponsors {
         background-color: rgb(168, 168, 168);
         width: 100%;
@@ -371,7 +371,7 @@
         padding-bottom: 5px;
         border-top: 1px solid #fff;
     }
-    
+
     #section-about {
         background-color: #eee;
         padding-top: 60px;
@@ -380,21 +380,21 @@
         border-bottom: 1px solid #ccc;
         border-top: 1px solid #888;
     }
-    
+
     #section-attend {
         background-color: #eee;
         padding-top: 60px;
         padding-bottom: 50px;
         text-align: left;
     }
-    
+
     #section-speakers {
         background-color: #fff;
         padding-top: 60px;
         padding-bottom: 50px;
         text-align: left;
     }
-    
+
     #section-documents {
         background-color: #eee;
         padding-top: 60px;
@@ -402,14 +402,14 @@
         text-align: left;
         border-top: 1px solid #ccc;
     }
-    
+
     #SadManBackground {
         background-image: url(/static/img/sadMan_compressed.jpg);
         background-size: cover;
         position: relative;
         height: 80vh;
     }
-    
+
     .header {
         /* background: #eee; */
         color: #fff !important;
@@ -425,7 +425,7 @@
         -webkit-transform: translate(0, -50%);
         transform: translate(0, -50%);
     }
-    
+
     .header-mobile {
         background: #ddd !important;
         /*opacity: .7; */
@@ -436,32 +436,32 @@
         margin-bottom: 40px;*/
         font-size: 36px;
     }
-    
+
     .header h3,
     .header h4 {
         color: #fff;
         font-family: 'Lato', sans-serif
     }
-    
+
     .header-mobile h3,
     .header-mobile h4 {
         color: #555;
         font-family: 'Lato', sans-serif
     }
-    
+
     .header h3,
     .header-mobile h3 {
         font-weight: 900 !important;
         text-transform: uppercase !important;
         font-size: 50px !important
     }
-    
+
     .header h4,
     .header-mobile h4 {
         font-weight: 400 !important;
         /* color: #444 !important */
     }
-    
+
     .col-head {
         padding-bottom: 10px;
         border-bottom: 1px solid #ccc;
@@ -469,57 +469,57 @@
         font-size: 28px;
         font-weight: 900;
     }
-    
+
     .intro-sub {
         font-size: 28px;
         margin-top: 50px;
     }
-    
+
     .spacer30 {
         margin-top: 30px;
     }
-    
+
     .speaker {
         overflow: hidden;
     }
-    
+
     .heavy {
         font-weight: 900
     }
-    
+
     .med {
         font-size: 24px
     }
     /* // Extra small devices (portrait phones, less than 576px) */
-    
+
     @media (max-width: 575px) {
         #SadManBackground {
             display: none
         }
     }
     /* // Small devices (landscape phones, 576px and up) */
-    
+
     @media (min-width: 576px) and (max-width: 767px) {
         #SadManBackground {
             display: none
         }
     }
     /* // Medium devices (tablets, 768px and up) */
-    
+
     @media (min-width: 768px) and (max-width: 991px) {
         #SadManBackground {
             display: none
         }
     }
     /* // Large devices (desktops, 992px and up) */
-    
+
     @media (min-width: 992px) and (max-width: 1199px) {
         #mobile-splash {
             display: none
         }
     }
     /* // Extra large devices (large desktops, 1200px and up) */
-    
+
     @media (min-width: 1200px) {
         #mobile-splash {
             display: none
