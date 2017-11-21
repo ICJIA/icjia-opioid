@@ -2,13 +2,13 @@
 <div>
 
 <section id = "section-title">
-    <div id ="SadManBackground" style="margin-top: -25px;" class="hidden-sm hidden-xs">
+    <div id ="SadManBackground" style="margin-top: -25px;" class="">
       <div class="header">
         <h3 > THE CRIMINAL JUSTICE RESPONSE TO THE OPIOID CRISIS</h3>
         <h4 > REFERRALS, RESOURCES, & RESEARCH</h4>
       </div>
     </div>
-    <div style="" class="hidden-md hidden-lg">
+    <div id="mobile-splash" class="">
       <div style="padding-top: 30px; padding-bottom: 30px;" class="header-mobile text-center">
         <h3> THE CRIMINAL JUSTICE RESPONSE TO THE OPIOID CRISIS</h3>
         <h4> REFERRALS, RESOURCES, & RESEARCH</h4>
@@ -341,11 +341,11 @@
 </script>
 
 
-<style lang="css" scoped>
+<style lang="css">
     #section-title {
         color: #fff;
     }
-
+    
     #section-registerNow {
         background-color: #3a3a87;
         color: #fff;
@@ -354,15 +354,15 @@
         border-top: 1px solid #aaa;
         border-bottom: 1px solid #000;
     }
-
+    
     #section-registerNow.text-muted {
         color: #fff !important
     }
-
+    
     #section-registerNow.lead {
         color: #fff !important
     }
-
+    
     #section-sponsors {
         background-color: rgb(168, 168, 168);
         width: 100%;
@@ -371,7 +371,7 @@
         padding-bottom: 5px;
         border-top: 1px solid #fff;
     }
-
+    
     #section-about {
         background-color: #eee;
         padding-top: 60px;
@@ -380,21 +380,21 @@
         border-bottom: 1px solid #ccc;
         border-top: 1px solid #888;
     }
-
+    
     #section-attend {
         background-color: #eee;
         padding-top: 60px;
         padding-bottom: 50px;
         text-align: left;
     }
-
+    
     #section-speakers {
         background-color: #fff;
         padding-top: 60px;
         padding-bottom: 50px;
         text-align: left;
     }
-
+    
     #section-documents {
         background-color: #eee;
         padding-top: 60px;
@@ -402,14 +402,14 @@
         text-align: left;
         border-top: 1px solid #ccc;
     }
-
+    
     #SadManBackground {
         background-image: url(/static/img/SadMan.jpg);
         background-size: cover;
         position: relative;
         height: 80vh;
     }
-
+    
     .header {
         /* background: #eee; */
         color: #fff !important;
@@ -425,9 +425,9 @@
         -webkit-transform: translate(0, -50%);
         transform: translate(0, -50%);
     }
-
+    
     .header-mobile {
-        background: #fff !important;
+        background: #ddd !important;
         /*opacity: .7; */
         padding: 15px 50px 15px 50px;
         text-align: center;
@@ -436,28 +436,32 @@
         margin-bottom: 40px;*/
         font-size: 36px;
     }
-
+    
     .header h3,
-    .header h4,
-    .header-mobile h3,
-    .header-mobile h4 {
+    .header h4 {
         color: #fff;
         font-family: 'Lato', sans-serif
     }
-
+    
+    .header-mobile h3,
+    .header-mobile h4 {
+        color: #555;
+        font-family: 'Lato', sans-serif
+    }
+    
     .header h3,
     .header-mobile h3 {
         font-weight: 900 !important;
         text-transform: uppercase !important;
         font-size: 50px !important
     }
-
+    
     .header h4,
     .header-mobile h4 {
         font-weight: 400 !important;
         /* color: #444 !important */
     }
-
+    
     .col-head {
         padding-bottom: 10px;
         border-bottom: 1px solid #ccc;
@@ -465,25 +469,60 @@
         font-size: 28px;
         font-weight: 900;
     }
-
+    
     .intro-sub {
         font-size: 28px;
         margin-top: 50px;
     }
-
+    
     .spacer30 {
         margin-top: 30px;
     }
-
+    
     .speaker {
         overflow: hidden;
     }
-
+    
     .heavy {
         font-weight: 900
     }
-
+    
     .med {
         font-size: 24px
+    }
+    /* // Extra small devices (portrait phones, less than 576px) */
+    
+    @media (max-width: 575px) {
+        #SadManBackground {
+            display: none
+        }
+    }
+    /* // Small devices (landscape phones, 576px and up) */
+    
+    @media (min-width: 576px) and (max-width: 767px) {
+        #SadManBackground {
+            display: none
+        }
+    }
+    /* // Medium devices (tablets, 768px and up) */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        #SadManBackground {
+            display: none
+        }
+    }
+    /* // Large devices (desktops, 992px and up) */
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+        #mobile-splash {
+            display: none
+        }
+    }
+    /* // Extra large devices (large desktops, 1200px and up) */
+    
+    @media (min-width: 1200px) {
+        #mobile-splash {
+            display: none
+        }
     }
 </style>
