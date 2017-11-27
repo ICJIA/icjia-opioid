@@ -269,12 +269,12 @@
             <br>
           <h3>PowerPoint Presentations</h3>
             <ul>
-              <li><a href="static\documents\Chief Eric Guenther_AWOPresentation.pptx"><u>A Way Out Program</u> </a> <strong> Eric Guenther</strong><em>, Chief of Police, Mundelein Police Department</em></li>
-              <li><a href="static\documents\Dan Meloy_Colerain (QRT) Quick Response Team - Bloomington IL.pptx"><u>Quick Response Team</u> </a><strong> Daniel Meloy</strong><em>, Administrator & Director of Public Safety, Colerain Township, OH</em></li>
-              <li><a href="static\documents\Dr. Ross MacDonald_Operational feasability of MAT in CJ.pptx"><u>Operational Feasibility of MAT in the Criminal Justice System</u> </a><strong> Ross MacDonald, M.D.</strong><em>, Chief Medical Officer & Senior Vice President, New York City Health + Hospitals</em></li>
-              <li><a href="static\documents\Nunley_CJ Response Opioid Crisis.pptx"><u>Addiction Recovery Management Services Unit</u> </a><strong> John Nunley</strong><em>, Statewide Manager of Addiction Recovery Services Unit, Illinois Department of Corrections</em></li>
-              <li><a href="static\documents\Phil Barbour_MAT in community corrections.pptx"><u>Medication-Assisted Treatment for Opioid Addiction in a Criminal Justice Context</u></a> <strong> Phillip Barbour</strong><em>, Master Trainer, Treatment Alternatives for Safe Communities (TASC)</em></li>
-              <li><a href="static\documents\Richard Weisskopf_methadone pp presentation The Criminal Justice Response to the Opioid Crisis 11.17.ppt"><u>IDHS/DASA State Opiate Treatment</u> </a><strong> Richard Weisskopf</strong><em>, Executive, State Opiate Treatment Authority, IDHS/DASA</em></li>
+              <li><a href="static\documents\Chief Eric Guenther_AWOPresentation.pdf"><u>A Way Out Program</u> </a> <strong> Eric Guenther</strong><em>, Chief of Police, Mundelein Police Department</em></li>
+              <li><a href="static\documents\Dan Meloy_Colerain (QRT) Quick Response Team - Bloomington IL.pdf"><u>Quick Response Team</u> </a><strong> Daniel Meloy</strong><em>, Administrator & Director of Public Safety, Colerain Township, OH</em></li>
+              <li><a href="static\documents\Dr. Ross MacDonald_Operational feasability of MAT in CJ.pdf"><u>Operational Feasibility of MAT in the Criminal Justice System</u> </a><strong> Ross MacDonald, M.D.</strong><em>, Chief Medical Officer & Senior Vice President, New York City Health + Hospitals</em></li>
+              <li><a href="static\documents\Nunley_CJ Response Opioid Crisis.pdf"><u>Addiction Recovery Management Services Unit</u> </a><strong> John Nunley</strong><em>, Statewide Manager of Addiction Recovery Services Unit, Illinois Department of Corrections</em></li>
+              <li><a href="static\documents\Phil Barbour_MAT in community corrections.pdf"><u>Medication-Assisted Treatment for Opioid Addiction in a Criminal Justice Context</u></a> <strong> Phillip Barbour</strong><em>, Master Trainer, Treatment Alternatives for Safe Communities (TASC)</em></li>
+              <li><a href="static\documents\Richard Weisskopf_methadone pp presentation The Criminal Justice Response to the Opioid Crisis 11.17.pdf"><u>IDHS/DASA State Opiate Treatment</u> </a><strong> Richard Weisskopf</strong><em>, Executive, State Opiate Treatment Authority, IDHS/DASA</em></li>
             </ul>
         </ul>
       </div>
